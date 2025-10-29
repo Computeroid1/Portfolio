@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Login Page",
+    "description": "A modern login user interface for a bank app with clean design and intuitive navigation.",
+    "category": "Mobile App Design",
+    "tags": ["Login", "Mobile UI"],
+    "images": [
+      "assets/designs/login-page/screen1.png",
+      "assets/designs/login-page/screen2.png",
+      "assets/designs/login-page/screen3.png"
+    ],
+    "figmaLink": "https://www.figma.com/design/nf7CfkJBWwHQScLUB1iDA7/Bank-Login-Page?node-id=0-1&t=rFWKPro9zSRuUAjS-1",
+    "prototypeLink": "https://www.figma.com/proto/nf7CfkJBWwHQScLUB1iDA7/Bank-Login-Page?node-id=0-1&t=rFWKPro9zSRuUAjS-1",
+    "tools": ["Figma"]
+  }
+]

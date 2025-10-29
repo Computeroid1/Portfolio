@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ugochukwu Chibuzor - Flutter Developer & UI/UX Designer specializing in mobile and desktop applications. View my portfolio of Flutter projects and Figma designs.">
+    <meta name="keywords" content="Flutter Developer, UI/UX Designer, Mobile App Developer, Desktop App Developer, Figma Designer, Portfolio">
+    <meta name="author" content="Ugochukwu Chibuzor">
+    <meta property="og:title" content="Ugochukwu Chibuzor - Flutter Developer & UI/UX Designer">
+    <meta property="og:description" content="Professional Flutter Developer & UI/UX Designer. Explore my projects and designs.">
+    <meta property="og:type" content="website">
+    <title>Ugochukwu Chibuzor - Flutter Developer & UI/UX Designer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="assets/U-GO.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body class="text-white min-h-screen" style="background: linear-gradient(180deg, #0c0c0c 0%, #1a1a2e 50%, #16213e 100%)">
+    <!-- Navigation -->
+    <nav class="fixed w-full top-0 z-50 backdrop-blur-md" style="background-color: rgba(12, 12, 12, 0.8);">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="text-2xl font-bold">
+                    <span style="background: linear-gradient(180deg, #00d4ff 0%, #ff00de 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">UC</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-white hover:opacity-80 transition">Home</a>
+                    <a href="#about" class="text-white hover:opacity-80 transition">About</a>
+                    <a href="#skills" class="text-white hover:opacity-80 transition">Skills</a>
+                    <a href="#projects" class="text-white hover:opacity-80 transition">Projects</a>
+                    <a href="#contact" class="text-white hover:opacity-80 transition">Contact</a>
+                </div>
+                <button id="mobile-menu-btn" class="md:hidden text-white">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden" style="background-color: rgba(12, 12, 12, 0.95);">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="#home" class="block px-3 py-2 text-white hover:bg-gray-800 rounded">Home</a>
+                <a href="#about" class="block px-3 py-2 text-white hover:bg-gray-800 rounded">About</a>
+                <a href="#skills" class="block px-3 py-2 text-white hover:bg-gray-800 rounded">Skills</a>
+                <a href="#projects" class="block px-3 py-2 text-white hover:bg-gray-800 rounded">Projects</a>
+                <a href="#contact" class="block px-3 py-2 text-white hover:bg-gray-800 rounded">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center pt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-5xl md:text-6xl font-bold mb-4" style="background: linear-gradient(180deg, #ffffff 0%, #90ecff 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Ugochukwu Chibuzor</h1>
+                    <p class="text-2xl mb-6" style="color: #90ecff;">Flutter Developer</p>
+                    <p class="text-gray-300 mb-8 leading-relaxed">
+                        Passionate about creating beautiful, functional mobile and desktop applications. 
+                        Specializing in Flutter development and UI/UX design to bring ideas to life with 
+                        seamless user experiences and elegant interfaces.
+                    </p>
+                    <a href="#projects" class="inline-block text-white px-8 py-3 rounded-full font-semibold hover:shadow-lg hover:scale-105 transition transform" style="background: linear-gradient(180deg, #00deff 0%, #ff00de 100%);">
+                        My Projects
+                    </a>
+                </div>
+                <div class="flex justify-center">
+                    <div class="relative">
+                        <div class="absolute inset-0 rounded-full blur-3xl opacity-50 animate-pulse" style="background: linear-gradient(180deg, #00deff 0%, #ff00de 100%);"></div>
+                        <div class="relative w-256 h-256 md:w-80 md:h-80 rounded-full" style="background: linear-gradient(135deg, #00deff 0%, #ff00de 100%); opacity: 0.1;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="flex justify-center">
+                    <div class="relative">
+                        <div class="absolute inset-0 rounded-full blur-2xl opacity-60" style="background: linear-gradient(135deg, #00deff 0%, #ff00de 100%);"></div>
+                        <img src="assets/profile.jpg" alt="Ugochukwu Chibuzor" class="relative w-64 h-64 rounded-full object-cover " style="border-color: transparent; border-image: linear-gradient(135deg, #00deff 0%, #ff00de 100%) 1;">
+                    </div>
+                </div>
+                <div>
+                    <h2 class="text-4xl font-bold mb-6" style="background: linear-gradient(180deg, #ffffff 0%, #90ecff 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">About <span>Me</span></h2>
+                    <p class="text-gray-300 leading-relaxed mb-4">
+                        I'm a dedicated Flutter developer and UI/UX designer with a passion for creating 
+                        innovative mobile and desktop applications. My expertise lies in transforming ideas 
+                        into functional, beautiful applications that users love.
+                    </p>
+                    <p class="text-gray-300 leading-relaxed mb-4">
+                        With experience in both development and design, I bridge the gap between aesthetics 
+                        and functionality. I believe that great apps are born from the perfect blend of 
+                        intuitive design and robust code.
+                    </p>
+                    <p class="text-gray-300 leading-relaxed">
+                        When I'm not coding or designing, I'm constantly learning new technologies and 
+                        exploring ways to improve user experiences. I'm always excited to take on new 
+                        challenges and collaborate on innovative projects.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-12" style="background: linear-gradient(180deg, #ffffff 0%, #90ecff 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">My <span>Skills</span></h2>
+            <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-6">
+                <div class="skill-icon bg-gray-800 p-4 rounded-xl hover:scale-110 transition transform" title="Flutter">
+                    <img src="assets/icons/flutter.png" alt="Flutter" class="w-full h-full object-contain">
+                </div>
+                <div class="skill-icon bg-gray-800 p-4 rounded-xl hover:scale-110 transition transform" title="Dart">
+                    <img src="assets/icons/dart.png" alt="Dart" class="w-full h-full object-contain">
+                </div>
+                <div class="skill-icon bg-gray-800 p-4 rounded-xl hover:scale-110 transition transform" title="Vue.js">
+                    <img src="assets/icons/vue.png" alt="Vue.js" class="w-full h-full object-contain">
+                </div>
+                <div class="skill-icon bg-gray-800 p-4 rounded-xl hover:scale-110 transition transform" title="HTML5">
+                    <img src="assets/icons/html.png" alt="HTML5" class="w-full h-full object-contain">
+                </div>
+                <div class="skill-icon bg-gray-800 p-4 rounded-xl hover:scale-110 transition transform" title="JavaScript">
+                    <img src="assets/icons/javascript.png" alt="JavaScript" class="w-full h-full object-contain">
+                </div>
+                <div class="skill-icon bg-gray-800 p-4 rounded-xl hover:scale-110 transition transform" title="Lua">
+                    <img src="assets/icons/lua.png" alt="Lua" class="w-full h-full object-contain">
+                </div>
+                <div class="skill-icon bg-gray-800 p-4 rounded-xl hover:scale-110 transition transform" title="Git">
+                    <img src="assets/icons/git.png" alt="Git" class="w-full h-full object-contain">
+                </div>
+                <div class="skill-icon bg-gray-800 p-4 rounded-xl hover:scale-110 transition transform" title="GitHub">
+                    <img src="assets/icons/github.png" alt="GitHub" class="w-full h-full object-contain">
+                </div>
+                <div class="skill-icon bg-gray-800 p-4 rounded-xl hover:scale-110 transition transform" title="Linux">
+                    <img src="assets/icons/linux.png" alt="Linux" class="w-full h-full object-contain">
+                </div>
+                <div class="skill-icon bg-gray-800 p-4 rounded-xl hover:scale-110 transition transform" title="TailwindCSS">
+                    <img src="assets/icons/tailwind.png" alt="TailwindCSS" class="w-full h-full object-contain">
+                </div>
+                <div class="skill-icon bg-gray-800 p-4 rounded-xl hover:scale-110 transition transform" title="Python">
+                    <img src="assets/icons/python.png" alt="Python" class="w-full h-full object-contain">
+                </div>
+                <div class="skill-icon bg-gray-800 p-4 rounded-xl hover:scale-110 transition transform" title="Java">
+                    <img src="assets/icons/java.png" alt="Java" class="w-full h-full object-contain">
+                </div>
+                <div class="skill-icon bg-gray-800 p-4 rounded-xl hover:scale-110 transition transform" title="C++">
+                    <img src="assets/icons/cpp.png" alt="C++" class="w-full h-full object-contain">
+                </div>
+                <div class="skill-icon bg-gray-800 p-4 rounded-xl hover:scale-110 transition transform" title="CSS3">
+                    <img src="assets/icons/css.png" alt="CSS3" class="w-full h-full object-contain">
+                </div>
+                <div class="skill-icon bg-gray-800 p-4 rounded-xl hover:scale-110 transition transform" title="Figma">
+                    <img src="assets/icons/figma.png" alt="Figma" class="w-full h-full object-contain">
+                </div>
+                <div class="skill-icon bg-gray-800 p-4 rounded-xl hover:scale-110 transition transform" title="Haxe">
+                    <img src="assets/icons/Haxe.png" alt="Haxe" class="w-full h-full object-contain">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-12" style="background: linear-gradient(180deg, #ffffff 0%, #90ecff 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">My <span>Projects</span></h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Flutter Projects Card -->
+                <a href="flutter-projects.html" class="group block">
+                    <div class="bg-gray-800 rounded-2xl overflow-hidden hover:scale-105 transition transform" style="box-shadow: 0 0 30px rgba(0, 222, 255, 0.2);">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold mb-4" style="background: linear-gradient(180deg, #ffffff 0%, #90ecff 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Flutter Projects</h3>
+                            <div class="rounded-xl p-8 mb-4 flex items-center justify-center h-64" style="background: linear-gradient(135deg, #191970 0%, #1e3a8a 100%);">
+                                <img src="assets/flutter-logo.png" alt="Flutter" class="w-52 h-52 object-contain">
+                            </div>
+                            <p class="text-gray-300 leading-relaxed">
+                                Explore my collection of Flutter mobile and desktop applications. 
+                                Each project showcases clean code, smooth performance, and beautiful UI.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- UI/UX Design Card -->
+                <a href="uiux-designs.html" class="group block">
+                    <div class="bg-gray-800 rounded-2xl overflow-hidden hover:scale-105 transition transform" style="box-shadow: 0 0 30px rgba(255, 0, 222, 0.2);">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold mb-4" style="background: linear-gradient(180deg, #ffffff 0%, #90ecff 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">UI/UX Designs</h3>
+                            <div class="bg-gradient-to-br from-purple-100 to-blue-100 rounded-xl p-4 mb-4 h-64 overflow-hidden">
+                                <img src="assets/app-design.png" alt="App Design" class="w-full h-full object-cover rounded-lg">
+                            </div>
+                            <p class="text-gray-300 leading-relaxed">
+                                Discover my UI/UX design portfolio created in Figma. 
+                                From wireframes to high-fidelity prototypes, see how I craft intuitive user experiences.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold mb-6" style="background: linear-gradient(180deg, #ffffff 0%, #90ecff 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Contact <span>Me</span></h2>
+            <p class="text-gray-300 mb-12 leading-relaxed">
+                I'm always excited to discuss new opportunities, collaborate on interesting projects, 
+                or just chat about technology. Feel free to reach out!
+            </p>
+            <div class="flex justify-center space-x-6">
+                <a href="https://linkedin.com/in/ugochukwu-chibuzor-96224529a" target="_blank" class="text-blue-500 hover:text-blue-600 transition-colors w-8 h-1">
+                    <i class="fab fa-linkedin-in text-3xl"></i>
+                </a>
+                <a href="https://twitter.com/Ugo_Chibuzor1" target="_blank" class="text-blue-400 hover:text-blue-500 transition-colors w-8 h-1">
+                    <i class="fab fa-twitter text-3xl"></i>
+                </a>
+                <a href="https://github.com/Computeroid1" target="_blank" class="text-gray-300 hover:text-gray-200 transition-colors w-8 h-1">
+                    <i class="fab fa-github text-3xl"></i>
+                </a>
+                <a href="mailto:chibuzorugochukwu24@gmail.com" target="_blank" class="text-red-500 hover:text-red-600 transition-colors w-8 h-1">
+                    <i class="fab fa-google text-3xl"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 mt-20" style="background-color: rgba(12, 12, 12, 0.8);">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white-400">
+            <p>2025 Ugochukwu Chibuzor. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

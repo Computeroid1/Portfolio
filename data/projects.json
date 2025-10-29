@@ -1,0 +1,21 @@
+[
+  {
+    "name": "MoodTrak",
+    "description": "Track your daily moods and discover emotional patterns with MoodTrak. Log feelings in seconds, add custom tags, and visualize your mental wellness journey with beautiful analytics. All data stays private on your device. Simple, elegant, and insightful mood tracking for better self-awareness.",
+    "platforms": ["Android"],
+    "tags": ["Mood Tracker", "HiveDB", "Flutter"],
+    "images": [
+      "assets/projects/MoodTrak/screenshot1.jpg",
+      "assets/projects/MoodTrak/screenshot2.jpg",
+      "assets/projects/MoodTrak/screenshot3.jpg",
+      "assets/projects/MoodTrak/screenshot4.jpg"
+    ],
+    "demoVideo": "assets/projects/MoodTrak/demo.mp4",
+    "downloads": {
+      "Android (.apk)": "downloads/MoodTrak.apk"
+    },
+    "links": {
+      "Github": "https://github.com"
+    }
+  }
+]
