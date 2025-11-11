@@ -17,5 +17,26 @@
     "links": {
       "Github": "https://github.com/Computeroid1/mood_trak.git"
     }
+  },
+  {
+    "name": "HabIT",
+    "description": "Build habits with this app. It has streaks for motivation, a calendar to help you track your achievemnent and its simple and modern UI makes it easy to use. All data are stored on your phone and you can add your own custom habit you would like to build.",
+    "platforms": ["Android"],
+    "tags": ["Habit Tracker", "HiveDB", "Flutter"],
+    "images": [
+      "assets/projects/HabIT/screenshot1.jpg",
+      "assets/projects/HabIT/screenshot2.jpg",
+      "assets/projects/HabIT/screenshot3.jpg",
+      "assets/projects/HabIT/screenshot4.jpg",
+      "assets/projects/HabIT/screenshot5.jpg",
+      "assets/projects/HabIT/screenshot6.jpg"
+    ],
+    "demoVideo": "assets/projects/HabIT/demo.mp4",
+    "downloads": {
+      "Android (.apk)": "downloads/HabIT.apk"
+    },
+    "links": {
+      "Github": "https://github.com/Computeroid1/habit_tracker.git"
+    }
   }
 ]
